@@ -1,13 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }   
+
 .cabeçalho_principal {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 2%;
-    background: rgba(93, 173, 226, 0.5);
+    padding: 0px 2%;
+    background: rgba(93, 173, 226, 0.7);
     backdrop-filter: blur(10px);
 }
 
 .logo img {
-    width: 200px;
+    width: 250px;
     height: auto;
 } 
+
+.frase_boas_vindas{
+    background-color: rgba(93, 173, 226, 0);
+    color: rgba(39, 95, 216, 1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.153);   
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.linha_superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    position:relative;
+    padding-top: 30px;
+}
+
+.links_navegacao{
+    display: flex;
+    gap: 60px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.links_navegacao a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.botoes_acesso{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.botoes_acesso button{
+background-color: #4834d4;
+color: white;
+border: none;
+border-radius: 15px;
+padding: 5px 15px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.conteudo_principal {
+    background-color: #3F5573;
+    min-height: 100vh;
+    padding: 50px 5%;
+}
+
+#Imagem_1 {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}

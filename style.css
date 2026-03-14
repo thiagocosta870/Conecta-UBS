@@ -75,7 +75,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 60px;
+    gap: 120px;
 }
 
 #Imagem_1 {
@@ -98,3 +98,39 @@ cursor: pointer;
     border-radius: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
     }
+
+.Como_funciona {
+    margin-top: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 382px;
+}
+
+.texto_como_funciona {
+    width: 800px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 247, 247, 0.938);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+#paragrafo_como_funciona {
+    text-align: left;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 247, 247, 0.938);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#imagem4 {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+
+
+}

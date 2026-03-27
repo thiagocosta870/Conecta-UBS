@@ -1,10 +1,9 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif; 
-}   
-
+    font-family: Arial, Helvetica, sans-serif;
+}  
 
 .cabeçalho_principal {
     padding: 0px 2%;
@@ -16,12 +15,12 @@
     max-width: 250px;
     width: 100%;
     height: auto;
-} 
+}
 
 .frase_boas_vindas {
     background-color: rgba(93, 173, 226, 0);
     color: rgba(39, 95, 216, 1);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.153);   
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.153);  
     text-align: center;
     padding-bottom: 10px;
 }
@@ -37,10 +36,10 @@
 }
 
 .menu-toggle {
-display: none;
-font-size: 40px;
-color: white;
-cursor: pointer;
+    display: none;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
 }
 
 .links_navegacao {
@@ -86,12 +85,15 @@ cursor: pointer;
     background-color: #2e1e94;
 }
 
-
 .conteudo_principal {
     background-color: #3F5573;
     min-height: 100vh;
     padding: 100px 5%;
 }
+
+
+
+/* ================== BLOCOS (ILHAS) ================== */
 
 .cartoes {
     display: flex;
@@ -99,28 +101,38 @@ cursor: pointer;
     align-items: flex-start;
     gap: 50px;
     flex-wrap: wrap;
+    /* Efeito Ilha */
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-
 #Imagem_1, #Imagem_2, #Imagem_3 {
-    width: 400px;
+    width: 100%;
+    max-width: 30%;
     height: auto;
     border-radius: 20px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-}
 
+}
 
 .Como_funciona {
     margin-top: 150px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     gap: 80px;
     flex-wrap: wrap;
+    /* Efeito Ilha */
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .texto_como_funciona {
-    max-width: 600px; 
+    max-width: 600px;
     width: 100%;
     font-size: 45px;
     font-weight: bold;
@@ -131,7 +143,7 @@ cursor: pointer;
 
 #paragrafo_como_funciona {
     margin-top: 30px;
-    font-size: 20px; 
+    font-size: 28px;
 }
 
 #imagem4 {
@@ -142,6 +154,165 @@ cursor: pointer;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.contatos {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    /* Efeito Ilha */
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.texto_contatos {
+    max-width: 500px;
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 247, 247, 0.938);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#paragrafo_contatos {
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: 1.6;
+}
+
+#imagem5 {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+ .sobre {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+.texto_sobre {
+    max-width: 600px;
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    color: rgba(255, 247, 247, 0.938);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+#paragrafo_sobre {
+    margin-top: 30px;
+    font-size: 28px;
+    line-height: 1.6;
+}
+
+#imagem6 {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.download_app {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 80px; 
+
+    /*Efeito Ilha*/
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15)
+}
+
+.qrs_container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coluna_android, .coluna_ios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo_android, .logo_ios {
+    height: 80px;
+    width: auto;
+
+}
+
+.nome_android, .nome_ios {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.qr_android, .qr_ios {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 3px;
+}
+
+.botao_google_play {
+    width: 190px;
+    height: 55px;
+    cursor: pointer; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.botao_apple_store {
+    width: 190px;
+    height: 55px;
+    cursor: pointer; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.botao_google_play:hover, .botao_apple_store:hover {
+    transform: scale(1.08);
+}
+
+.texto_download {
+    flex: 1;
+    padding-top: 105px;
+}
+
+#paragrafo_download {
+    color: rgba(255, 247, 247, 0.938);
+    font-size: 28px; 
+    font-weight: bold;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    margin: 0;
+
+}
 
 
 
@@ -155,22 +326,7 @@ cursor: pointer;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Deixar responsivo para dispositivos menores*/
+/* ================== RESPONSIVO ================== */
 
 @media (max-width: 950px) {
 
@@ -179,19 +335,13 @@ cursor: pointer;
         gap: 30px;
     }
 
-
-
     .logo img {
         max-width: 180px;
     }
 
-
-
     .menu-toggle {
         display: block;
     }
-
-
 
     .links_navegacao {
         display: none;
@@ -205,12 +355,9 @@ cursor: pointer;
         margin-top: 20px;
     }
 
-
     .links_navegacao.active {
         display: flex;
     }
-
-
 
     .links_navegacao a {
         color: white;
@@ -220,13 +367,9 @@ cursor: pointer;
         transition: color 0.3s;
     }
 
-
-
     .links_navegacao a:hover {
         color: #4834d4;
     }
-
-
 
     .botoes_acesso {
         display: none;
@@ -234,15 +377,16 @@ cursor: pointer;
         justify-content: center;
         width: 100%;
         margin-top: 10px;
-
     }
-
-
 
     .botoes_acesso.active {
         display: flex;
+    }
 
-    } 
+    /* Reduz o espaço interno das ilhas no celular */
+    .cartoes, .Como_funciona, .contatos, .sobre, .download_app {
+        padding: 30px 15px; 
+    }
 
     .cartoes {
         gap: 40px;
@@ -267,4 +411,51 @@ cursor: pointer;
         text-align: center;
     }
 
+    .contatos {
+        gap: 40px;
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .texto_contatos {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #paragrafo_contatos {
+        text-align: center;
+    }
+
+    .sobre {
+        gap: 40px;
+        margin-top: 100px;
+    }
+
+    .texto_sobre {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #paragrafo_sobre {
+        text-align: center;
+    }
+
+    .download_app {
+        margin-top: 100px;
+    }
+
+    .qrs_container {
+        gap: 50px; 
+    }
+
+    .download_app {
+        margin-top: 100px;
+        flex-direction: column-reverse; /* NOVO: Coloca o texto por cima dos QRs! */
+        gap: 50px;
+    }
+
+    #paragrafo_download {
+        text-align: center;
+        font-size: 24px; 
+    }
 }
